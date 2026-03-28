@@ -1,0 +1,13 @@
+site_name: DawSync IT
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Networking: networking.md
+  - Linux: linux.md
+  - Troubleshooting: troubleshooting.md
+  - Active Directory: active_directory.md
+  - Nutanix: nutanix.md
+  - Site_name: TEST

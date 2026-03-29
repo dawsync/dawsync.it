@@ -1,11 +1,17 @@
 # DawSync IT
 
-Welcome to my technical knowledge base. Here I will upload documentation and 'How-To' documents related to my professional work experiences.
+Welcome to my technical knowledge base.
 
-I am learning as I go with creating an MkDocs website, and hope to build a running archive of technical documentation for quick reference and historical archiving of past work and projects.
-
-## Sections
+## 🧱 Core Areas
+- Windows Server (AD, DNS, SCCM)
+- Virtualization (Nutanix)
+- Backup (HYCU)
 - Networking
 - Linux
-- Cloud
-- Troubleshooting
+
+## 📌 Purpose
+This site contains:
+- SOPs
+- Troubleshooting guides
+- Deployment notes
+- Real-world fixes

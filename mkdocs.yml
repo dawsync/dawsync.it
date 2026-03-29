@@ -2,12 +2,32 @@ site_name: DawSync IT
 
 theme:
   name: material
+  palette:
+    - scheme: default
+      primary: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - search.highlight
+    - content.code.copy
 
-nav:
-  - Home: index.md
-  - Networking: networking.md
-  - Linux: linux.md
-  - Troubleshooting: troubleshooting.md
-  - Active Directory: active_directory.md
-  - Nutanix: nutanix.md
-  - Site_name: TEST
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
